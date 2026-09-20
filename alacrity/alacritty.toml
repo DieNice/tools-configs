@@ -1,0 +1,167 @@
+[general]
+
+import = [
+
+    "C:\\Users\\Daily\\AppData\\Roaming\\alacritty\\themes\\themes\\iceberg.toml"
+    ]
+
+
+
+[env]
+
+TERM = "xterm-256color"
+
+COLORTERM = "truecolor"
+
+LANG = "en_US.UTF-8"
+
+
+
+[font]
+
+size = 11
+
+
+
+[font.normal]
+
+family = "Hack Nerd Font"
+
+style = "Regular"
+
+
+
+[[keyboard.bindings]]
+
+action = "SpawnNewInstance"
+
+key = "N"
+
+mods = "Command"
+
+
+
+[[keyboard.bindings]]
+
+chars = "\u0015"
+
+key = "Back"
+
+mods = "Super"
+
+
+
+[[keyboard.bindings]]
+
+chars = "\u001Bb"
+
+key = "Left"
+
+mods = "Alt"
+
+
+
+[[keyboard.bindings]]
+
+chars = "\u001Bf"
+
+key = "Right"
+
+mods = "Alt"
+
+
+
+[[keyboard.bindings]]
+
+chars = "\u0000"
+
+key = "Space"
+
+mods = "Control"
+
+
+
+[[keyboard.bindings]]
+
+chars = "\u001BOH"
+
+key = "Left"
+
+mode = "AppCursor"
+
+mods = "Command"
+
+
+
+[[keyboard.bindings]]
+
+chars = "\u001BOF"
+
+key = "Right"
+
+mode = "AppCursor"
+
+mods = "Command"
+
+
+
+[[keyboard.bindings]]
+
+chars = "\u001BR"
+
+key = "R"
+
+mods = "Command"
+
+
+
+[[keyboard.bindings]]
+
+key = "Space"
+
+mods = "Super"
+
+action = "None"
+
+
+
+[window]
+
+decorations = "none"
+
+dynamic_padding = true
+
+opacity = 1
+
+startup_mode = "Maximized"
+
+#startup_mode = "Windowed"
+
+#dimensions = { columns = 100, lines = 40 }
+
+
+
+[window.padding]
+
+x = 15
+
+y = 15
+
+
+
+[terminal.shell]
+
+program = "wsl"
+
+args = [
+
+    "-d",
+
+    "Ubuntu",
+
+    "--cd",
+
+    "~"
+
+]
+
