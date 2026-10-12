@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "litellm/gpt-4o-mini",
+  "provider": {
+    "litellm": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LiteLLM",
+      "options": {
+        "baseURL": "https://litellm.dns-shop.ru/v1",
+        "apiKey": "{env:LITELLM_API_KEY}"
+      },
+      "models": {
+        "glm-5": {
+          "name": "GLM-5 via LiteLLM"
+        },
+        "qwen3.8-flash-next": {
+          "name": "DNS Local model qwen3.8-flash-next via LiteLLM"
+        }
+      }
+    }
+  },
+  "plugin": [
+    "oh-my-openagent"
+  ]
+}
