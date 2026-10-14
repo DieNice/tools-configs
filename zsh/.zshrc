@@ -34,3 +34,12 @@ export editor=vim
 export nvm_dir="$home/.nvm"
 [ -s "$nvm_dir/nvm.sh" ] && \. "$nvm_dir/nvm.sh"  # this loads nvm
 [ -s "$nvm_dir/bash_completion" ] && \. "$nvm_dir/bash_completion"  # this loads nvm bash_completion
+
+. "$HOME/.local/bin/env"
+
+# opencode
+export PATH=/home/pda/.opencode/bin:$PATH
+
+# copy for windows
+alias pbcopy="win32yank.exe -i"
+
