@@ -42,4 +42,5 @@ export PATH=/home/pda/.opencode/bin:$PATH
 
 # copy for windows
 alias pbcopy="win32yank.exe -i"
+alias open=explorer.exe
 
